@@ -43,7 +43,7 @@
 
 .invoice .invoice-details .invoice-id {
     margin-top: 0;
-    color: #3989c6
+    color: #09597e
 }
 
 .invoice main {
@@ -86,10 +86,11 @@
 
 .invoice table td h3 {
     margin: 0;
-    font-weight: 400;
-    color: #3989c6;
-    font-size: 1.2em
+    font-weight: bold; /* Añade esta línea para negrita */
+    color: #09597e;
+    font-size: 1.2em;
 }
+
 
 .invoice table .qty,.invoice table .total,.invoice table .unit {
     text-align: right;

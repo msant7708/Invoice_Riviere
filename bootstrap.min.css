@@ -152,11 +152,13 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #3989c6;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
+    color: #09597e;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    font-weight: bold; /* Añade esta línea para negrita */
+  }
+  
 a:hover {
   color: #0056b3;
   text-decoration: underline;

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Invoice Riviere</title>
-    <link rel="stylesheet" href="bootstrap.min.css"/>
-    <link rel="stylesheet" href="styles.css"/>
-    
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+
     <style>
       body {
         background-image: url('https://www.appsheet.com:443/fsimage.png?appid=49ac3e1f-fa32-4022-97f9-ec98d815a6b9&datasource=google&filename=DocId%3D1lB_QKuMYHmW4fQCQY9g8BhX_TSyJvpO1&signature=aaa437601383152ec052923ac1e71b0c248c163c0ac56eb206450f820f8a50df&tableprovider=google&userid=3620220'); /* Reemplaza 'URL_DE_TU_IMAGEN_DE_FONDO.jpg' con la URL de tu imagen de fondo */
@@ -15,9 +15,10 @@
         background-attachment: fixed;
       }
 
-      /* Agrega estilos adicionales según sea necesario */
+    .pepe {
+        display: none;
+    }
 
-      /* Resto de tu CSS existente */
     </style>
   </head>
   <body>
@@ -65,59 +66,24 @@
             <table border="0" cellspacing="0" cellpadding="0">
               <thead>
                 <tr>
-                  <th>#</th>
-                  <th class="text-right">HOUR PRICE</th>
+                  <th>REF. PRODUCTO</th>
+                  <th class="text-left">IMG.</th>
                   <th class="text-left" colspan="2">DESCRIPTION</th>
-                 
-                  <th class="text-right">TOTAL</th>
+                  <th class="text-right">PRECIO</th>
                 </tr>
               </thead>
               <tbody>
+                <P class="pepe"><span>&lt;&lt;Start: [Related Detalle_presupuestos]&gt;&gt;</span></P>
                 <tr>
-                  <td class="no">04444</td>
-                  <td class="unit">$0.00</td>
+                  <td class="no">&lt;&lt;[id_producto]&gt;&gt;</td>
+                  <td class="unit">&lt;&lt;[Imagen]&gt;&gt;</td>
                   <td class="text-left" colspan="2">
-                    <h3>Website Design</h3>
-                    Creating a recognizable design solution based on the
-                    company's existing visual identity
+                    <h3>&lt;&lt;[Nombre]&gt;&gt;</h3>
+                    &lt;&lt;[Descripción]&gt;&gt; - Producto: &lt;&lt;[Estado del producto].[Estado del producto]&gt;&gt;, Sujeto a &lt;&lt;[IVA].[TIPO IVA]&gt;&gt;. Descuento a aplicar: &lt;&lt;[Descuento]&gt;&gt;
                   </td>
-
-                  
-                  <td class="total">$0.00</td>
+                  <td class="total">&lt;&lt;[id_producto].[Nombre de producto]&gt;&gt;</td>
                 </tr>
-                <tr>
-                  <td class="no">01</td>
-                  <td class="unit">$40.00</td>
-                  <td class="text-left" colspan="2">
-                    <h3>Website Design</h3>
-                    Creating a recognizable design solution based on the
-                    company's existing visual identity
-                  </td>
-
-                  
-                  <td class="total">$1,200.00</td>
-                </tr>
-                <tr>
-                  <td class="no">02</td>
-                  <td class="unit">$40.00</td>
-                  <td class="text-left" colspan="2">
-                    <h3>Website Development</h3>
-                    Developing a Content Management System-based Website
-                  </td>
-
-                  
-                  <td class="total">$3,200.00</td>
-                </tr>
-                <tr>
-                  <td class="no">03</td>
-                  <td class="unit">$40.00</td>
-                  <td class="text-left" colspan="2">
-                    <h3>Search Engines Optimization</h3>
-                    Optimize the site for search engines (SEO)
-                  </td>
-                  
-                  <td class="total">$800.00</td>
-                </tr>
+                <p class="pepe"><span>&lt;&lt;end&gt;&gt;</span></p>
               </tbody>
               <tfoot>
                 <tr>
