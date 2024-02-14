@@ -104,8 +104,12 @@
 }
 
 .invoice table .unit {
-    background: #ffffff
+    background: #ffffff;
+    max-width: 100px; /* ajusta el valor según tus necesidades */
+    max-height: 100px; /* ajusta el valor según tus necesidades */
+    overflow: hidden; /* para manejar el desbordamiento si la imagen es más grande */
 }
+
 
 .invoice table .total {
     background: #c7a2528f;
